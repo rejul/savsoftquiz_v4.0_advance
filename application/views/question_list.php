@@ -265,7 +265,7 @@ if(($limit-($this->config->item('number_of_rows')))>=0){ $back=$limit-($this->co
 	
 <a href="<?php echo base_url();?>sample/sample.docx" target="new">Click here</a> <?php echo $this->lang->line('upload_doc_info');?> 
 </form>
-
+<div class="alert alert-danger">Note: Word importer only support text and image content. If you wants to import mathematical equations then visit <a href="http://docx.host">www.DOCX.host</a> <br>www.DoCX.host</div>
 </div>
 
 
