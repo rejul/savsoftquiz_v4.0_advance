@@ -82,7 +82,7 @@ background:#eeeeee;
 			
 		<?php
 		}else{
-		echo $_SERVER['REQUEST_URI'];
+		// echo $_SERVER['REQUEST_URI'];
 		$sq_url="http://".$_SERVER['HTTP_HOST'] . str_replace('index.php/Install/index/ph','',$_SERVER['REQUEST_URI']);
  $last_sl=substr($sq_url,(strlen($sq_url)-1),strlen($sq_url));
  if($last_sl=='/'){
